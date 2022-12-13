@@ -1,6 +1,6 @@
 body{
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container{
@@ -8,5 +8,34 @@ body{
     border-color: dimgray;
     margin: 1rem;
     padding: 1rem;
-    
+    border-radius: 1rem;
+
+
+}
+
+.cabecera{
+    text-align:left ;
+    background-color: #000d28;
+    font-size: 33px;
+    font-weight: bold;
+    box-shadow: 1px 1px 8px 1px ;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+}
+
+.cabecera #tagline{
+    padding: 1rem;
+    font-size: 25px;
+    font-weight: initial;
+    color: white;
+}
+
+.logo{
+    width: 200px;
+}
+
+h1{
+    margin-top: 2rem;
+    font-size: 1.5rem;
 }
