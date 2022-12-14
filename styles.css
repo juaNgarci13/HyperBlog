@@ -1,17 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     margin: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #121f3d;
+
 }
 
 
 
 .container{
-    text-align: center;
+    background-color: #24385b;
+    color: white;
     border-style: solid;
     border-color: dimgray;
     margin: 1rem;
     padding: 1rem;
     border-radius: 1rem;
+    border-style: none;
+
+}
+
+.container p{
+    padding: 1rem;
 }
 
 .cabecera{
@@ -19,7 +33,6 @@ body{
     background-color: #000d28;
     font-size: 33px;
     font-weight: bold;
-    box-shadow: 1px 1px 8px 1px ;
     display: flex;
     align-items: center;
     border-radius: 1rem;
@@ -37,6 +50,7 @@ body{
 }
 
 h1{
+    padding: 1rem;
     margin-top: 2rem;
     font-size: 1.5rem;
 }
@@ -51,6 +65,8 @@ h1{
 .nav{
     display: flex;
     background-color: #121f3d;
+    border-bottom-style: solid;
+    border-color: #03091e;
 }
 
 .nav_a{
@@ -72,3 +88,45 @@ h1{
 .logo_nav{
     height: 60px;
 }
+.footer{
+    background-color: #03091e;
+    color: white; 
+    bottom: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+
+.redes button{
+    height: 30px;
+    width: 30px;
+    font-weight: bold;
+    margin: 8px;
+    border-radius: 10px;
+    border-style: none;
+    color: white;
+}
+
+.footer p{
+    width: 50%;
+    margin-left:25%;
+    padding: 6px;
+}
+
+.T{
+    background-color: rgb(0, 149, 255);
+}
+.F{
+    background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
+}
+.I{
+    background: #d6249f;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+    box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+}
+.Y{
+    background: rgb(255,0,0);
+background: linear-gradient(39deg, rgba(255,0,0,1) 70%, rgba(255,68,68,1) 100%);
+}
+
