@@ -1,9 +1,0 @@
-Hola, mi nombre es Juan Manuel García Boada.
-
-Desarrollador en la empresa de Sanitas junto con la empresa 
-SmartSoft solutions S.A.S 
-
-Empece en el mundo del desarrollo hace 2 años y quiero volverme 
-un desarrollador fullSTack con JavaScript y Phyton
-
-Gracias :D. 
