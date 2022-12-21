@@ -91,14 +91,16 @@ h1{
 .footer{
     background-color: #03091e;
     color: white; 
-    bottom: 0;
+    position: fixed;
     width: 100%;
-    padding-bottom: 20px;
-    color: white;
-    text-align: center;
+    height: 220px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 0px;
 }
 
-.redes button{
+/* .redes button{
     height: 30px;
     width: 30px;
     font-weight: bold;
@@ -106,6 +108,15 @@ h1{
     border-radius: 10px;
     border-style: none;
     color: white;
+} */
+
+.redes{
+    text-align: center;
+    margin: 0;
+    width: auto;
+
+
+
 }
 
 .footer p{
@@ -115,17 +126,41 @@ h1{
 }
 
 .T{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
     background-color: rgb(0, 149, 255);
 }
 .F{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
     background-image: radial-gradient(circle at 50% -20.71%, #a7deff 0, #6c90d8 50%, #38496b 100%);
 }
 .I{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
     background: #d6249f;
     background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
     box-shadow: 0px 3px 10px rgba(0,0,0,.25);
 }
 .Y{
+    width: 30px;
+    height: 30px;
+    padding: 1px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
     background: rgb(255,0,0);
 background: linear-gradient(39deg, rgba(255,0,0,1) 70%, rgba(255,68,68,1) 100%);
 }

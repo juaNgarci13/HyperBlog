@@ -1,6 +1,14 @@
 import React from "react";
 import "./styles.css";
 
+// ICONS
+import {
+  RiFacebookFill,
+  RiTwitterFill,
+  RiInstagramLine,
+  RiYoutubeLine,
+} from "react-icons/ri";
+
 import logo from "./logo.webp";
 
 export default function Hyperblog() {
@@ -40,17 +48,21 @@ export default function Hyperblog() {
       <div class="footer">
         <img class="logo" src={logo} alt="" />
 
-        <p>
+        {/* <p>
           Transformamos la economía de nuestros países entrenando a la próxima
           generación de profesionales en // tecnología.
-        </p>
+        </p> */}
 
         <div class="redes">
-          <p>// Aprende en nuestras redes: // </p>
-          <button class="T">T</button>
-          <button class="F">F</button>
-          <button class="I">I</button>
-          <button class="Y">Y</button>
+          <p>
+            Transformamos la economía de nuestros países entrenando a la próxima
+            generación de profesionales en tecnología.
+          </p>
+          <p>Aprende en nuestras redes: </p>
+          <RiFacebookFill className="F" />
+          <RiTwitterFill class="T" />
+          <RiInstagramLine class="I" />
+          <RiYoutubeLine class="Y" />
         </div>
       </div>
     </>
