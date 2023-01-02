@@ -36,7 +36,9 @@ export default function Hyperblog() {
           <img class="logo" src={logo} alt="" />
           <span id="tagline"> Millones de cursos para ti </span>
         </div>
-        <h1>Descubre los Millones de Cursos que Tenemos para Ti.</h1>
+        <h1 className="h1_H">
+          Descubre los Millones de Cursos que Tenemos para Ti.
+        </h1>
         <hr />
 
         <p>
@@ -47,11 +49,6 @@ export default function Hyperblog() {
 
       <div class="footer">
         <img class="logo" src={logo} alt="" />
-
-        {/* <p>
-          Transformamos la economía de nuestros países entrenando a la próxima
-          generación de profesionales en // tecnología.
-        </p> */}
 
         <div class="redes">
           <p>

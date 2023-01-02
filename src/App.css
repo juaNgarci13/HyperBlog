@@ -1,6 +1,7 @@
 .App {
-  text-align: center;
-  color: white
+  /* text-align: center; */
+  color: white;
+  margin: 1rem;
 }
 
 
@@ -13,3 +14,40 @@
   text-decoration: none;
 }
 
+.img_juan{
+  width: 400px;
+}
+
+.liHome{
+  margin: 1rem
+}
+
+.listitems {
+  margin: 2rem ; 
+  list-style: none;
+}
+
+.listitems li{
+  margin: 1rem;
+
+}
+
+.listitems li:hover{
+  margin: 2rem;
+  color:#98ca3f ;
+  font-weight: bold;
+}
+
+
+.listitems li a{
+  outline: none;
+  padding: 2px 1px 0;
+}
+
+.listitems li a:hover{
+  color: #98ca3f;
+}
+
+.pHome{
+  margin: 1rem;
+}

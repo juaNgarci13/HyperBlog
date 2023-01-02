@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+p{
+    margin: 1rem;
+}
+
+.bodyDisplay{
+    margin: 2rem;
+}
+
+.header h1{
+    color: white;
+}
+
+ .list_items {
+    margin: 2rem ; 
+}
+
+.list_items li:hover{
+    padding: 3px;
+    color:#98ca3f ;
+    font-weight: bold;
+}
+
+.list_items li:hover::after{
+content: "✅";
+}
+
+.list_items li a{
+    outline: none;
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+.bloque{
+    background-color: #98ca3f;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.bloque h3{
+    margin: 20px;
+}
+
+
+.Inline{
+    background-color: #98ca3f;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.Inline h3{
+    margin: 20px;
+}
+
+
+.inline {
+    background-color: khaki;
+    color: black;
+   margin: 10px;
+}
+
+.block {
+    background-color: khaki;
+    color: black;
+    margin: 10px;
+}
+
+
+.logoJ{
+    width: 200px;
+}
+
+.header_D h1{
+    margin: 20px 0px 20px 0px;
+}
+
+.ul_D{
+    margin: 1rem;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.ul_D li{
+    margin :5px;
+    border: 1px solid ;
+    padding: 3px;   
+    list-style: none;
+    text-align: center;
+}
+
+.ul_D2{
+    margin-left: 3rem;
+}
+
+.main h2{
+    margin: 1rem;
+    color: #98ca3f;
+}
+
+.Inline_all{
+    /* width: 50%; */
+    border-right: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+}
+
+.Block_all{
+    margin: 10px;
+}
+
+
+.inlineBlock_all{
+    border-right: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    
+}
+
+.Flex_Grid_all{
+    margin: 10px;
+}
+
+.content{
+    display: grid ;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.pather{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #0c7feb;
+
+}
+
+.son{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    background-color: #15033e;
+}
+
+.son:nth-child(2n +1){
+    background-color: aqua;
+}
+
+.pather_grid{
+    display: grid;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(242, 8, 8);
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+.son_grid{
+    background-color: #15033e;
+}
+
+.son_grid:nth-child(2n +1){
+    background-color: aqua;
+}
