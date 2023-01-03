@@ -31,6 +31,12 @@ export default function FrontEnd() {
           <li>
             <a href={"Posisionamiento"}>Posisionamiento</a>
           </li>
+          <li>
+            <a href={"Zindex"}>Z-index</a>
+          </li>
+          <li>
+            <a href={"CssUsados"}>Css más Usados</a>
+          </li>
         </ul>
       </main>
     </body>

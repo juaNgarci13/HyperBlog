@@ -11,6 +11,8 @@ import Selectores from "./components/FrontEnd_Course/Selectores";
 import ValueHTML from "./components/FrontEnd_Course/ValueHTML";
 import ValuesCSS from "./components/FrontEnd_Course/ValuesCSS";
 import Posisionamiento from "./components/FrontEnd_Course/Posisionamiento";
+import Zindex from "./components/FrontEnd_Course/Zindex";
+import CssUsados from "./components/FrontEnd_Course/CssUsados";
 
 const router = createBrowserRouter([
   {
@@ -52,6 +54,14 @@ const router = createBrowserRouter([
   {
     path: "/Posisionamiento",
     element: <Posisionamiento />,
+  },
+  {
+    path: "/Zindex",
+    element: <Zindex />,
+  },
+  {
+    path: "/CssUsados",
+    element: <CssUsados />,
   },
 ]);
 

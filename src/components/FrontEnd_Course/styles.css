@@ -73,7 +73,7 @@ content: "✅";
 
 
 .logoJ{
-    width: 200px;
+    width:200px;
 }
 
 .header_D h1{
@@ -166,3 +166,119 @@ content: "✅";
 .son_grid:nth-child(2n +1){
     background-color: aqua;
 }
+
+.body_z{
+    background-color: #fff;
+    margin: 4rem;
+    width: 90%;
+    height: 400px;
+    z-index: -4;
+    position: absolute;
+}
+
+.body_z h1{
+    color: black;
+    padding: 1rem;
+}
+
+.div_1{
+   
+    top: 50px;
+    z-index: 0;
+}
+
+.div_2{
+   
+    z-index: -1;
+    top: 100px;
+
+}
+
+.div_3{
+   
+    top: 150px;
+    z-index: -2;
+
+}
+
+.div_4{
+   
+    z-index: -3;
+    top: 200px;
+
+}
+
+.main_Z div
+{
+    left: 43%;
+    position: absolute;
+    width: 100px; 
+    height: 100px;
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+    border-radius: 50%; 
+}
+
+.main_CSS{
+    background-color: #03091e;
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+}
+
+.Card{
+    width: 400px;
+    height: 500px;
+    margin: 1rem;
+    border-radius: 10%;
+    background-color: #03091e;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    align-items: center;
+    border: 5px solid white;
+}
+
+.Card h1{
+    color: rgb(255, 255, 255);
+}
+.Card h3{
+    color: rgb(255, 255, 255);
+}
+
+.img_card{
+    top: 0;
+    width: 100%;
+    height: 40%;
+    position: static;
+}
+
+.logo{
+    background-color: #ffffff;
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(255, 255, 255);
+    border-radius: 50%;
+    margin-top: -80px;
+}
+
+.logo img{
+    width: 150px;
+}
+
+.info h3{
+    color: rgb(255, 255, 255);
+}
+
+.icons{
+    background-color: red;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+}
+
+#id h1::first-letter{}
+
+p .sidemenu div:hover{}
