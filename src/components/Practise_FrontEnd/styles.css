@@ -17,6 +17,8 @@
 
 .body_PF{
     background-color: #fff;
+    width: 100%;
+    height: 100vh;
 }
 
 .login{
@@ -97,4 +99,44 @@
     .logo-login{
         display: block;
     }
+}
+
+/*! EMAIL */
+
+.Email{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
+
+.email-container{
+    background-color: var(--White);
+    display: grid;
+    grid-template-rows:auto 1fr auto ;
+    width: 50%;
+}
+
+.email-image{
+    width: 100%;
+    height: 150px;
+    display: grid;
+    place-items: center;
+}
+
+
+.request-email{
+    color: var(--dark);
+    font-size: var(--sm);
+    font-weight: 300;
+    margin-top: 0;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: 300px;
+/* top,  rigth, button, left*/
+}
+
+.request-email a{
+    text-decoration: none;
+    color:var(--hospital-green);
 }

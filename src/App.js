@@ -14,6 +14,7 @@ import Posisionamiento from "./components/FrontEnd_Course/Posisionamiento";
 import Zindex from "./components/FrontEnd_Course/Zindex";
 import CssUsados from "./components/FrontEnd_Course/CssUsados";
 import Index from "./components/Practise_FrontEnd";
+import SendEmail from "./components/Practise_FrontEnd/SendEmail";
 
 const router = createBrowserRouter([
   {
@@ -67,6 +68,10 @@ const router = createBrowserRouter([
   {
     path: "/PractiseFrondEnd",
     element: <Index />,
+  },
+  {
+    path: "/SendEmail",
+    element: <SendEmail />,
   },
 ]);
 
