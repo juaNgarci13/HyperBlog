@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles.css";
+import "../styles/GlobalStyles.css";
 export default function FrontEnd() {
   return (
     <body className="bodyFront">

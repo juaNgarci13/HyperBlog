@@ -25,13 +25,23 @@ function CssUsados() {
           <h3>Web Develoveper</h3>
           <div className="info">
             <h3>
-              <TiLocation />
+              <TiLocation style={{ marginRight: "5px" }} />
               Colombia
             </h3>
             <h3>
-              <FiSend values={{ color: "blue" }} />
+              <FiSend style={{ marginRight: "5px" }} />
               Send Email
             </h3>
+          </div>
+          <div className="info_2">
+            <div>
+              <h4>Followers</h4>
+              <h5>1000 K</h5>
+            </div>
+            <div>
+              <h4>Twitter</h4>
+              <h5>1000 K</h5>
+            </div>
           </div>
         </div>
       </main>
@@ -40,20 +50,3 @@ function CssUsados() {
 }
 
 export default CssUsados;
-
-
-¿Qué son y para qué nos sirven las arquitecturas CSS?
-Sirven para mantener un orden y una coherencia durante todo el proyecto. Tiene los siguientes objetivos:
-
-Predecibles: escribir reglas claras.
-Reutilizable: no escribir código redundante.
-Mantenible: que sea fácil de leer y adaptable a los estándares.
-Escalable: que pueda crecer fácilmente sin afectar el rendimiento.
-.
-Estos objetivos se deben ver reflejadas en buenas practicas que debe conocer todo el equipo involucrado en el proyecto como:
-
-Establecer reglas
-Explicar la estructura base
-Establecer estándares de codificación
-Evitar largas hojas de estilo
-Documentación

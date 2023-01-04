@@ -13,6 +13,7 @@ import ValuesCSS from "./components/FrontEnd_Course/ValuesCSS";
 import Posisionamiento from "./components/FrontEnd_Course/Posisionamiento";
 import Zindex from "./components/FrontEnd_Course/Zindex";
 import CssUsados from "./components/FrontEnd_Course/CssUsados";
+import Index from "./components/Practise_FrontEnd";
 
 const router = createBrowserRouter([
   {
@@ -62,6 +63,10 @@ const router = createBrowserRouter([
   {
     path: "/CssUsados",
     element: <CssUsados />,
+  },
+  {
+    path: "/PractiseFrondEnd",
+    element: <Index />,
   },
 ]);
 

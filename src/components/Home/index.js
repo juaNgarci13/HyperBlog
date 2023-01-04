@@ -17,6 +17,11 @@ function Home(props) {
         <li>
           <a href={`FrontEnd`}>• Curso de Frontend Developer</a>
         </li>
+        <li>
+          <a href={`PractiseFrondEnd`}>
+            • Curso Practico de Frontend Developer
+          </a>
+        </li>
       </ul>
       <img src={juan} className="img_juan" alt="pxl" />
     </div>
