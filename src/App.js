@@ -15,6 +15,7 @@ import Zindex from "./components/FrontEnd_Course/Zindex";
 import CssUsados from "./components/FrontEnd_Course/CssUsados";
 import Index from "./components/Practise_FrontEnd";
 import SendEmail from "./components/Practise_FrontEnd/SendEmail";
+import IndexCJ from "./components/Curso_practico_Javascript/IndexCJ";
 
 const router = createBrowserRouter([
   {
@@ -72,6 +73,10 @@ const router = createBrowserRouter([
   {
     path: "/SendEmail",
     element: <SendEmail />,
+  },
+  {
+    path: "/CursoPracticoJavaScript",
+    element: <IndexCJ />,
   },
 ]);
 
