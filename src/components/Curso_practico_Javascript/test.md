@@ -383,6 +383,62 @@ const exampleObject = (comidas) => {
 exampleObject(comida);
 ```
 
+## Manipulacion del HTML desde JS - 1
+
+```JS
+  setTimeout(myGreeting, 1000);
+
+  function myGreeting() {
+    // SELECION DE UN ELEMENTO
+    const h1 = document.querySelector("h1");
+    const p = document.querySelector("p");
+    const parrafito = document.querySelector(".parrafito");
+    const parrafo = document.querySelector("#parrafo");
+    const input = document.querySelector("input");
+
+    // AGREGAR UN ELEMENTO HTML DESDE NUESTRO JS
+    p.innerHTML = "<p>muy feo</p>";
+
+    // GREGARLE UN VALOR A UN ELEMTO DESDE EL JS
+    p.setAttribute("class", "valor");
+
+    // ELIMINAR UN ATRIBUTO DESDE EL JS
+    p.removeAttribute("class");
+
+    // OPTENER UN ATRIBUTO DESDE EL JS
+    console.log(p.getAttribute("class"));
+
+    // AGREGARLE UN VALOR A LA CLASS
+    p.classList.add("valor2");
+
+    // ELIMINAR UN VALOR A LA CLASS
+    p.classList.remove("valor2");
+
+    // CREAR UN ELEMENTO NUEVO Y AGREGARLO AL HTML
+    const img = document.createElement("img");
+
+    img.setAttribute(
+      "src",
+      // "https://static.platzi.com/static/images/footer/logo.png"
+      "https://seeklogo.com/images/P/platzi-logo-98005E6AD6-seeklogo.com.png"
+    );
+
+    img.setAttribute("alt", "logo");
+
+    p.innerHTML = "";
+    p.appendChild(img);
+
+    console.log({
+      h1,
+      p,
+      parrafito,
+      parrafo,
+      input,
+    });
+  }
+
+```
+
 ## ¿Cómo te fue? 🏆
 
 **¡Felicidades por completar la prueba de JavaScript!** Confío en que hayas completado cada paso y hayas pausado para repasar los temas de los ejercicios que se te complicaron.

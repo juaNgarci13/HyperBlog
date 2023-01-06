@@ -22,6 +22,9 @@ function Home(props) {
             • Curso Practico de Frontend Developer
           </a>
         </li>
+        <li>
+          • <a href={"CursoPracticoJavaScript"}>Curso Practico JavaScript</a>
+        </li>
       </ul>
       <img src={juan} className="img_juan" alt="pxl" />
     </div>
